@@ -3,9 +3,9 @@ This is a repository to track my progress in learning reinforcement learning and
 
 ## Progress:
 ---
-* 6/6/2020
+* 5/6/2020
     - [x] [David Silver Deepmind Lecture 1](https://youtu.be/2pWv7GOvuf0)
-* 7/6/2020
+* 6/6/2020
     - [x] [David Silver Deepmind Lecture 2](https://youtu.be/lfHX2hHRMVQ)
 
 ## Long-term Goals:
