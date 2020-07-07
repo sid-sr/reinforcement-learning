@@ -18,3 +18,20 @@
 * The optimal action value function for a given state and action is: the reward for that (s, a) + mean probability over all the optimal value functions of the states it can reach after that action.
 * The optimal state value function is the max of all the optimal action value functions (over all the actions that can be taken from that state).
 * The optimal policy function should choose the action that gives max q* from that state. So, unity for that action from that state, all other actions from that state have 0 probability in the optimal policy.
+
+## Lecture 3:
+---
+* DP can be used to find the optimal policy, which exists for any MDP.
+* Planning consists of control and prediction -> 2 different problems.
+* Prediction is evaluation of a given policy for a given MDP -> can be done iteratively, to get a final value function.
+* Control is choosing the right policy that maximises the reward.
+* To get the optimal policy, start off with a random policy (say URF) then perform 2 steps: Evaluate it and then update the policy greedily based on the value function it generates.
+* This 2 step process can be done repeatedly to get the optimal value function and hence the optimal policy.
+* The cyclic process is: policy evaluation + policy improvement. This is policy iteration.
+* Another method is to use value iteration. At each state, we inductively assume we know the optimal value of all the states from that state, and v* for that state is the v of the action that maximises the immediate reward + mean v* of all the other states.
+* So in value iteration, we work backwards. Since we don't know which state is closest to the terminal state, we perform one step lookahead for all states.
+* Policy iteration: iterate over the Bellman **expectation** equation (normal), in value iteration: iterate over the Bellman **optimality** equation.
+* Value iteration does not use an explicit policy at each step, in fact intermediate value function values may not even correspond to some policy that exists.
+* Same updates can be done to q values too, but it has higher time complexity.
+
+DOUBT: Why value iteration is policy iteration with k = 1.
