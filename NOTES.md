@@ -48,6 +48,10 @@ DOUBT: Why value iteration is policy iteration with k = 1.
 * The mean (which is the value) can be updated incrementally as we see the Gt for that state appear by just correcting what we thought the mean was by the error (difference between mean and the Gt that we see now).
 * Step size can be a fixed value too (rather than 1/num_seen).
 * TD works on incomplete episodes, by bootstrapping.
-* 2 terms: TD target (immediate reward + gamma * value of next state) and the difference between target and previous estimate is the TD error. This is for TD(0).
+* Bootstrapping means we don't take the real return Gt at the end of the episode, rather update based on the estimated return (ie gamme * value of next state). DP does this too. MC doesn't, it takes the real return at the end of an episode.
+* 2 terms: TD target is (immediate reward + gamma * value of next state) and the difference between target and previous estimate is the TD error. This is for TD(0).
 * TD is an online algorithm that updates the values of the states during the episode, while MC updates only after the episode terminates.
 * TD has much lower variance compared to MC, as in TD we only look ahead by one step and update based on the value of the next state whereas in MC we update based on the unbiased estimate of the value for that state. (lot of noise based on randomness of successive states chosen)
+* TD and DP are similar as they both do one step lookahead,this one step lookahead and update is called bootstrapping.
+But they differ because TD (and MC too) samples some sequence, while DP searches all actions and transitions.
+* MC may work better for non-Markovian environments. TD exploits the Markov property.

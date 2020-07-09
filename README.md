@@ -8,7 +8,7 @@ This is a repository to track my progress in learning reinforcement learning and
     - [x] [David Silver Deepmind Lecture 2 - MDPs](https://youtu.be/lfHX2hHRMVQ)
 * 7/7/2020
     - [x] [David Silver Deepmind Lecture 3 - Planning by DP](https://youtu.be/Nd1-UUMVfz4)
-* 8/7/2020
+* 8/7/2020 - 10/7/2020
     - [x] [David Silver Deepmind Lecture 4 - Model-Free Prediction](https://youtu.be/PnHCvfgC_ZA)
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
