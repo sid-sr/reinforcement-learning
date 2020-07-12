@@ -20,6 +20,7 @@ This is a repository to track my progress in learning reinforcement learning and
 * [Policy Evaluation in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
 * [Policy Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
 * [Value Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
+* [Monte Carlo Prediction](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Prediction.ipynb)
 * [Monte Carlo Control using epsilon-greedy policies](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
