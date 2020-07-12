@@ -12,12 +12,19 @@ This is a repository to track my progress in learning reinforcement learning and
     - [x] [David Silver Deepmind Lecture 4 - Model-Free Prediction](https://youtu.be/PnHCvfgC_ZA)
 * 10/7/2020
     - [x] [David Silver Deepmind Lecture 5 - Model-Free Control](https://youtu.be/0g4j2k_Ggc4)    
+* 12/7/2020
+    - [x] Coded policy evaluation and policy iteration for the GridWorld MDP toy problem.
+## Code:
+* [Policy Evaluation in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
+* [Policy Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
 
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+* Environment library taken from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/)
 * Gridworld DP update [visualiser](https://cs.stanford.edu/people/karpathy/reinforcejs/gridworld_dp.html)
 * Equations for [backward view of TD(lambda)](http://incompleteideas.net/book/first/ebook/node75.html)
 * Why [epsilon-greedy policy updation](https://stats.stackexchange.com/questions/248131/epsilon-greedy-policy-improvement/304406#304406) works
+
 
 ## Long-term Goals:
 1. Finish David Silver's DeepMind lectures.
