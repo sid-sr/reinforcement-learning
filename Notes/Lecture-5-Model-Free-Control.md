@@ -18,3 +18,5 @@
 * In GLIE (Greedy in the Limit of Exploration), we ensure 2 properties: 1. all (s, a) pairs will be explored infinitely many times given infinitely many episodes. 2. The policy at the end (after an infinite number of episodes) must converge to a (full) greedy policy.
 * One way to do this is to set epsilon to 1/num_episodes_seen. This ensures as the episodes go on, the exploration probability reduces and in the limit to infinity, we reach a greedy policy. 
 * GLIE Monte Carlo control consists of 2 steps: 1. For an episode, for each state-action, update the q value by its (return - old estimate) (the error). 2. After the kth episode ends, update policy by epsilon greedy update using epsilon as 1/k. This ensures q converges to q*.
+* Intial Q values matter only when a constant alpha is used, if 1/n is used, they don't matter.
+* Same concept can be applied with TD too (TD with epsilon-greedy policy), this is called SARSA.
