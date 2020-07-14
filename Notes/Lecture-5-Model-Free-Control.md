@@ -20,3 +20,10 @@
 * GLIE Monte Carlo control consists of 2 steps: 1. For an episode, for each state-action, update the q value by its (return - old estimate) (the error). 2. After the kth episode ends, update policy by epsilon greedy update using epsilon as 1/k. This ensures q converges to q*.
 * Intial Q values matter only when a constant alpha is used, if 1/n is used, they don't matter.
 * Same concept can be applied with TD too (TD with epsilon-greedy policy), this is called SARSA.
+* For SARSA to converge we have 2 conditions: 1. use GLIE (ie: variable epsilon) and 2. Robbins-Monro sequence for alpha, meaning sum of alphas over inf time is infinite and that the change in alpha over time steps vanishes at infinity, ie: constant alpha.
+* In practice SARSA converges even without these 2 conditions. 
+* N step returns can also be taken into account, and the same algo, SARSA(lambda) can be used to geometrically weight each step return based on lambda and update that (s, a) pair by this mean value over all step returns weighted by lambda.
+* Again this is not an online algo, to solve that we use eligibilty traces for each (s, a) pair again.
+* Disadvantage of SARSA(0) is that it only really updates one state, action pair after each episode (the one before the final reward) the rest just use 0 reward + their successor states' approximation, which is also 0 at this time.
+* So it needs a lot of episodes to approximate Q, but SARSA(lambda) fixes this as each step along the episode gets some update to it's Q based on it's eligibility, so after 1 episode, all Q's are already non zero
+* Beats the tyranny of the time step. Lambda also controls the effect of decay in the eligibilty trace, so lambda controls variance in that sense too, like how far back should states be in order to be eligible to receive that update. (farther it is, more the variance).
