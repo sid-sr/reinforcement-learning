@@ -27,3 +27,16 @@
 * Disadvantage of SARSA(0) is that it only really updates one state, action pair after each episode (the one before the final reward) the rest just use 0 reward + their successor states' approximation, which is also 0 at this time.
 * So it needs a lot of episodes to approximate Q, but SARSA(lambda) fixes this as each step along the episode gets some update to it's Q based on it's eligibility, so after 1 episode, all Q's are already non zero
 * Beats the tyranny of the time step. Lambda also controls the effect of decay in the eligibilty trace, so lambda controls variance in that sense too, like how far back should states be in order to be eligible to receive that update. (farther it is, more the variance).
+* Off policy learning: the policy we evaluate is not the policy we follow (which is called the behaviour policy)
+* One method is Importance Sampling where we follow mu (behaviour policy) but evaluate pi. The update for each state when we see it is a corrected Gt value that divides all the mu policy for all (s, a) from that state to the terminal one and multiplies all the corresponding pi for those (s, a) pairs.
+* Importance Sampling + Monte Carlo has very high variance -> practically useless.
+* So we use Importance Sampling + TD where we update each state online by it's TD target weighted by the ratio of pi to mu of that (s, a) pair. So if it's a small pi and large mu, then as expected, the update is very small. This has way lesser variance.
+* Another off policy learning method is Q learning aka SARSAMAX. Main concept: we take an action based on our behaviour policy and update Q(s, a) and the next action a' is chosen based on our target policy pi and this Q is updated based on that error from r + gamma * Q(s', a').
+* So 'a' is the real behaviour, a' is the alternate behaviour we're trying to evaluate.
+* Now, we can make mu as an epsilon greedy policy wrt Q (so mu improves too) and make pi (our target policy) greedy wrt Q. So a is chosen epsilon-greedily (thus it explores a little) while a' is chosen greedily.
+* All TD methods are basically samples of DP full width backups with different equations.
+* TD evaluation is same as DP bootstrapping policy evaluation but sampled.
+* SARSA (which is model-free TD control) is equivalent to full width DP policy iteration in modeled environment but sampled.
+* Finally, Q learning is the sampling version of full width DP value iteration using Bellman Optimality Equation.
+
+DOUBT: How to actually choose mu and pi for IS + TD/MC
