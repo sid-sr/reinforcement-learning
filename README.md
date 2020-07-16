@@ -15,13 +15,16 @@ This is a repository to track my progress in learning reinforcement learning and
 * 12/7/2020
     - [x] Coded policy evaluation, policy iteration and value iteration for the GridWorld MDP toy problem.
 * 13/7/2020
-	- [x] Coded Monte Carlo prediction and control.
+	- [x] Coded Monte Carlo prediction and control for Blackjack.
+* 17/7/2020
+    - [x] Coded SARSA (and tested GLIE) for Windy GridWorld.
 ## Code:
 * [Policy Evaluation in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
 * [Policy Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
 * [Value Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
 * [Monte Carlo Prediction for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Prediction.ipynb)
 * [Monte Carlo Control using epsilon-greedy policies for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
+* [SARSA with GLIE for Windy GridWorld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 * Environment library taken from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/)
