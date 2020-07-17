@@ -19,6 +19,8 @@ This is a repository to track my progress in learning reinforcement learning and
 * 17/7/2020
     - [x] Coded SARSA (and tested GLIE) for Windy Gridworld. 
     - [x] Coded Q-Learning (and tested GLIE) for Cliff environment.
+* 18/7/2020
+    - [x] [David Silver Deepmind Lecture 6 - Value Function Approximation](https://youtu.be/UoPei5o4fps)
 ## Code:
 * [Policy Evaluation in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
 * [Policy Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
