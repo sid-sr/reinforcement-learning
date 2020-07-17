@@ -13,18 +13,20 @@ This is a repository to track my progress in learning reinforcement learning and
 * 10/7/2020 - 16/7/2020
     - [x] [David Silver Deepmind Lecture 5 - Model-Free Control](https://youtu.be/0g4j2k_Ggc4)    
 * 12/7/2020
-    - [x] Coded policy evaluation, policy iteration and value iteration for the GridWorld MDP toy problem.
+    - [x] Coded policy evaluation, policy iteration and value iteration for whe GridWorld MDP toy problem.
 * 13/7/2020
 	- [x] Coded Monte Carlo prediction and control for Blackjack.
 * 17/7/2020
-    - [x] Coded SARSA (and tested GLIE) for Windy GridWorld.
+    - [x] Coded SARSA (and tested GLIE) for Windy Gridworld. 
+    - [x] Coded Q-Learning (and tested GLIE) for Cliff environment.
 ## Code:
-* [Policy Evaluation in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
-* [Policy Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
-* [Value Iteration in GridWorld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
+* [Policy Evaluation in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
+* [Policy Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
+* [Value Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
 * [Monte Carlo Prediction for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Prediction.ipynb)
 * [Monte Carlo Control using epsilon-greedy policies for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
-* [SARSA with GLIE for Windy GridWorld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
+* [SARSA with GLIE for Windy Gridworld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
+* [Q-Learning with GLIE for Cliff environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning.ipynb)
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 * Environment library taken from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/)
