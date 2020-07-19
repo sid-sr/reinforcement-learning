@@ -16,3 +16,7 @@
 * TD(0) is biased but it still converges. 
 * We essentially build a dataset of (state, target) pairs as we go and incrementally update online (at the end of the episode/during each state depending on the algo).
 * Backward view of TD(lambda) can be applied here too, the ET is smaller as it's the size of the feature space, each feature is decayed with time and increased by it's magnitude at each time step and delta W is updated by alpha * TD error * eligibility vector (rather than the magnitudes themselves like in MSE LR).
+* With this online update method (say TD(0)) we can do control as follows: start off with random weights for each feature. Now using this we can approximate any Q(s, a) value, act epsilon-greedily and choose an action, now we update the network to correct it's curve to fit the TD target we saw now (ie: SDG with m=1 update) and then we take the next action based on the new estimate of Q using the new weights.
+* So it is similar to table lookup except we use a function to approximate Q rather than a table and we update the function params slighty at each step to fit better to the actual Q.
+* So, it never gets to Q pi, like any NN, it just approximates better and better with time.
+* Exact same concepts can be applied to approximate action value function too, building a set of features for each (s, a) pair and learning some weights for each of these features to approximate Q.
