@@ -1,5 +1,17 @@
-# Reinforcement Learning 
-This is a repository to track my progress in learning reinforcement learning and apply them in practice.
+# Reinforcement Learning:
+This is a repository for RL resources and algorithms that I have implemented using [openAI's gym](https://github.com/openai/gym) environment.
+
+## Code:
+
+* [Policy Evaluation in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
+* [Policy Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
+* [Value Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
+* [Monte Carlo Prediction for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Prediction.ipynb)
+* [Monte Carlo Control using epsilon-greedy policies for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
+* [SARSA with GLIE for Windy Gridworld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
+* [Q-Learning with GLIE for Cliff environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning.ipynb)
+
+Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/). 
 
 ## Progress:
 * 5/7/2020
@@ -18,27 +30,14 @@ This is a repository to track my progress in learning reinforcement learning and
 	- [x] Coded Monte Carlo prediction and control for Blackjack.
 * 17/7/2020
     - [x] Coded SARSA (and tested GLIE) for Windy Gridworld. 
-    - [x] Coded Q-Learning (and tested GLIE) for Cliff environment.
-* 18/7/2020
+    - [x] Coded Q-Learning for Cliff environment.
+* 18/7/2020 - 19/7/2020
     - [x] [David Silver Deepmind Lecture 6 - Value Function Approximation](https://youtu.be/UoPei5o4fps)
-## Code:
-* [Policy Evaluation in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Evaluation.ipynb)
-* [Policy Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Policy%20Iteration.ipynb)
-* [Value Iteration in Gridworld MDP](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Value%20Iteration.ipynb)
-* [Monte Carlo Prediction for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Prediction.ipynb)
-* [Monte Carlo Control using epsilon-greedy policies for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
-* [SARSA with GLIE for Windy Gridworld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
-* [Q-Learning with GLIE for Cliff environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning.ipynb)
+
+
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 * Environment library taken from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/)
 * Gridworld DP update [visualiser](https://cs.stanford.edu/people/karpathy/reinforcejs/gridworld_dp.html)
 * Equations for [backward view of TD(lambda)](http://incompleteideas.net/book/first/ebook/node75.html)
 * Why [epsilon-greedy policy updation](https://stats.stackexchange.com/questions/248131/epsilon-greedy-policy-improvement/304406#304406) works
-
-
-## Long-term Goals:
-1. Finish David Silver's DeepMind lectures.
-2. Following [Spinning Up](https://spinningup.openai.com/en/latest/) in OpenAI.
-3. Starting to learn OpenAI.
-4. Solving basic RL problems.
