@@ -31,7 +31,7 @@ Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/den
 * 17/7/2020
     - [x] Coded SARSA (and tested GLIE) for Windy Gridworld. 
     - [x] Coded Q-Learning for Cliff environment.
-* 18/7/2020 - 19/7/2020
+* 18/7/2020 - 20/7/2020
     - [x] [David Silver Deepmind Lecture 6 - Value Function Approximation](https://youtu.be/UoPei5o4fps)
 
 
