@@ -10,6 +10,7 @@ This is a repository for RL resources and algorithms that I have implemented usi
 * [Monte Carlo Control using epsilon-greedy policies for Blackjack](https://github.com/sid-sr/reinforcement-learning/blob/master/code/MC%20Control%20with%20Epsilon-Greedy%20Policies.ipynb)
 * [SARSA with GLIE for Windy Gridworld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
 * [Q-Learning with GLIE for Cliff environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning.ipynb)
+* [Q-Learning with Linear Value Function Approximation for MountainCar environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning%20with%20Value%20Function%20Approximation.ipynb)
 
 Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/). 
 
