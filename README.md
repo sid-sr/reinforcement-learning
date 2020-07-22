@@ -11,6 +11,7 @@ This is a repository for RL resources and algorithms that I have implemented usi
 * [SARSA with GLIE for Windy Gridworld](https://github.com/sid-sr/reinforcement-learning/blob/master/code/SARSA.ipynb)
 * [Q-Learning with GLIE for Cliff environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning.ipynb)
 * [Q-Learning with Linear Value Function Approximation for MountainCar environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/Q-Learning%20with%20Value%20Function%20Approximation.ipynb)
+* [Deep Q Network with Experience Replay for CartPole environment](https://github.com/sid-sr/reinforcement-learning/blob/master/code/DQN%20CartPole%20Solution.ipynb)
 
 Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning/). 
 
@@ -34,7 +35,8 @@ Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/den
     - [x] Coded Q-Learning for Cliff environment.
 * 18/7/2020 - 21/7/2020
     - [x] [David Silver Deepmind Lecture 6 - Value Function Approximation](https://youtu.be/UoPei5o4fps)
-
+* 22/7/2020
+	- [x] Coded Deep Q Network algorithm with Experience Replay for the CartPole environment.
 
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
