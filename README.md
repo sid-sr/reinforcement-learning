@@ -38,6 +38,8 @@ Boilerplate code from [dennybritz/reinforcement-learning](https://github.com/den
 * 22/7/2020 - 23/7/2020
 	- [x] Coded Deep Q Network algorithm with Experience Replay for the CartPole environment.
     - [x] Finished visualisation and made a separate repo for DQN.
+* 1/8/2020
+    - [x] [David Silver Deepmind Lecture 7 - Policy Gradient Methods](https://youtu.be/KHZVXao4qXs)    
 
 ## Resources:
 * [David Silver's DeepMind RL course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
